@@ -290,7 +290,13 @@ input {
   position: relative;
 }
 
-.article__header--white {
+.offer__header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 30px;
   text-align: center;
   color: var(--white-color);
 }
