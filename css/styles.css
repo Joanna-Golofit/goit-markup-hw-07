@@ -1,6 +1,6 @@
 :root {
-  --main-font: "Roboto", "Verdana", "Tahoma", sans-serif;
-  --secondary-font: "Raleway", "Verdana", "Tahoma", sans-serif;
+  --main-font: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  --secondary-font: 'Raleway', 'Verdana', 'Tahoma', sans-serif;
   --main-color: #212121;
   --white-color: #ffffff;
   --blue-color: #2196f3;
@@ -89,7 +89,7 @@ input {
 
 .menu__link.current::after {
   display: block;
-  content: "";
+  content: '';
   width: 100%;
   height: 4px;
   position: absolute;
@@ -179,7 +179,7 @@ input {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/hero/hero.jpg");
+    url('../images/hero/hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -275,7 +275,7 @@ input {
 }
 
 /* ======= END WHY US ======= */
-/* ======= OFFER ======= */
+/* ======= OUR-OFFER ======= */
 
 .bg {
   position: absolute;
@@ -286,26 +286,27 @@ input {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.offer-list-item {
+.offer__item {
   position: relative;
 }
 
-.article-header.white {
+.article__header--white {
   text-align: center;
+  color: var(--white-color);
 }
 
-.offer .container {
+.our-offer .container {
   display: flex;
   flex-direction: column;
 }
 
-.offer-list {
+.offer {
   display: flex;
   justify-content: space-between;
   width: 1170px;
 }
 
-/* ======= END OFFER ======= */
+/* ======= END OUR-OFFER ======= */
 /* ======= TEAM ======= */
 
 .social-icon {
@@ -716,13 +717,13 @@ input {
 
 .declaration::before {
   display: inline-block;
-  content: " ";
+  content: ' ';
   width: 16px;
   height: 15px;
   border: 1px solid #212121;
   border-radius: 4px;
-  margin-right: 8px; 
-  position: relative; 
+  margin-right: 8px;
+  position: relative;
   top: 2px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
