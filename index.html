@@ -409,34 +409,30 @@
     </main>
     <!-- END OUR-CUSTOMERS -->
     <!-- CONTACT-US -->
-    <footer class="contact">
-
-      <!-- contact juz wystepuje trzeba dac footer klasy footer -->
-     <!-- i contact-us -->
-     
-      <div class="contact-container container">
+    <footer class="contact-us">
+      <div class="container">
         <div class="addresses">
           <a class="logo logo--white" href="./index.html">
             <span class="logo--accent">Web</span>Studio
           </a>
-          <address class="address">
-            <ul class="address-list">
-              <li class="address-list-item">
+          <address class="our-address">
+            <ul class="address">
+              <li class="address__item">
                 <a
-                  class="address-list-link white"
+                  class="address__link address__link--white"
                   target="_blank"
                   href="https://goo.gl/maps/rPz5dUSjKDYNv8CF8"
                 >
                   m. Warszawa, Aleje Jerozolimskie 21
                 </a>
               </li>
-              <li class="address-list-item">
-                <a class="address-list-link" href="mailto:info@example.com">
+              <li class="address__item">
+                <a class="address__link" href="mailto:info@example.com">
                   info@example.com
                 </a>
               </li>
-              <li class="address-list-item">
-                <a class="address-list-link" href="tel:+48111111111">
+              <li class="address__item">
+                <a class="address__link" href="tel:+48111111111">
                   +48 111 111 111
                 </a>
               </li>
@@ -445,7 +441,7 @@
         </div>
       
         <div class="join-us">
-          <h5 class="join-us-header white">Dołącz do nas</h5>
+          <h5 class="join-us-header">Dołącz do nas</h5>
           <!-- social-icons -->
               <ul class="social">
               <li class="social__item">
@@ -483,15 +479,15 @@
         <!-- newsletter -->
 
         <div class="newsletter">
-          <form class="newsletter-form">
-            <label class="newsletter-label white">
-            <!-- <label for="newsletter-email-input" class="newsletter-label white"></label> -->
+          <form class="newsletter__form">
+            <label class="newsletter__label">
+            <!-- <label for="newsletter__emailt" class="newsletter__label"></label> -->
               Zapisz się do newslettera
-            <div>
-              <input id="newsletter-email-input" class="newsletter-email-input" type="email" name="email" placeholder="E-mail" />
+            <div class="newsletter__wrapper">
+              <input id="newsletter__email" class="newsletter__email" type="email" name="email" placeholder="E-mail" />
             </label>
-              <button class="btn" type="submit">
-                <svg width="130" height="30">
+              <button class="btn newsletter__btn" type="submit">
+                <svg  class="newsletter__icon" width="130" height="30">
                   <use href="./images/icons.svg#icon-send-with-text"></use>            
                 </svg>
               </button>
@@ -501,15 +497,15 @@
 
         <!-- END newsletter -->
       
-        </div>  
+      </div>  
     </footer>
     <!-- END CONTACT-US -->
 
     <!-- Backdrop  -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="x-btn" data-modal-close>
-          <svg class="x-icon" width="11" height="11">
+        <button class="x-btn" type="button" data-modal-close>
+          <svg class="x-btn__icon" width="11" height="11">
             <use href="./images/icons.svg#icon-x"></use>            
           </svg>          
         </button> 
@@ -518,7 +514,7 @@
         
         <p class="modal-header">Zostaw swoje dane w formularzu poniżej</p>
 
-        <form method="post" class="modal-form">
+        <form class="modal-form" method="post">
           <label class="label">               
             Imie               
             <input class="modal-input" name="name" minlength="3" required /> 
@@ -551,7 +547,7 @@
             </label>
           </div>
    
-          <button class="btn active-btn" type="submit">Wyślij</button>
+          <button class="btn btn--active" type="submit">Wyślij</button>
           
         </form>
         <!-- END form -->
