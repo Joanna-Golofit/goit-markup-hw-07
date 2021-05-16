@@ -1,0 +1,45 @@
+:root {
+  --main-font: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  --secondary-font: 'Raleway', 'Verdana', 'Tahoma', sans-serif;
+  --main-color: #212121;
+  --white-color: #ffffff;
+  --blue-color: #2196f3;
+  --gray-color: #757575;
+  --light-gray-color: rgba(117, 117, 117, 0.5);
+  --background-color-dark: #2f303a;
+  --background-color-gray: #f5f4fa;
+  --opacity-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+p {
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+img {
+  display: block;
+}
+input {
+  padding: 0;
+}
+.address__link,
+.menu__link,
+.logo,
+.contacts__link {
+  text-decoration: none;
+}
