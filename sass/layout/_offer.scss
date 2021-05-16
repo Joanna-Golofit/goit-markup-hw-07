@@ -1,22 +1,18 @@
-.offer__header-wrapper {
-  position: absolute;
-  bottom: 0;
-  width: 370px;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-}
-
-.offer__item {
-  position: relative;
-}
-
-.our-offer .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .offer {
   display: flex;
   justify-content: space-between;
   width: 1170px;
+
+  &__header-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+  &__item {
+    position: relative;
+  }
 }
+
+

@@ -1,15 +1,12 @@
-
+.customers {
+  display: flex;
+  justify-content: space-between;
+}
 .customers__icon {
   width: 106px;
   height: 60px;
   fill: currentColor;
 }
-
-.customers {
-  display: flex;
-  justify-content: space-between;
-}
-
 .customers__link {
   display: flex;
   align-items: center;
@@ -23,10 +20,10 @@
   transition-property: color, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.customers__link:hover,
-.customers__link:focus {
-  border: 1px solid var(--blue-color);
-  color: #2196f3;
+  &:hover,
+  &:focus {
+    border: 1px solid var(--blue-color);
+    color: #2196f3;
+  }
 }
