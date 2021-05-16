@@ -1,10 +1,4 @@
-.contact-us .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
+
 .addresses {
   margin-right: 70px;
 }
@@ -58,10 +52,6 @@ color: var(--white-color);
   color: var(--white-color);
 }
 .newsletter__wrapper {
-  display: flex;
-}
-.newsletter__btn {
-  align-self: flex-end;
   display: flex;
 }
 .newsletter__icon {
