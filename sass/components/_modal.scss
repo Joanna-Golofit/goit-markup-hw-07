@@ -1,11 +1,10 @@
-
 .btn-close {
   position: absolute;
   width: 30px;
   height: 30px;
   top: 8px;
   right: 8px;
-  background-color: var(--white-color);
+  background-color: $white-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -13,7 +12,7 @@
 .modal {
   position: absolute;
   margin: auto;
-  background-color: var(--white-color);
+  background-color: $white-color;
   width: 528px;
   min-height: 581px;
   top: 50%;
@@ -29,7 +28,7 @@
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.01em;
-  color: var(--gray-color);
+  color: $gray-color;
 }
 .form__icon {
   width: 13px;
@@ -57,10 +56,10 @@
   margin-bottom: 10px;
   
   &:focus + .form__icon {
-    fill: var(--blue-color);
+    fill: $blue-color;
   }
   &:focus {
-    border-color: var(--blue-color);
+    border-color: $blue-color;
   }
 }
 .form__comment {
@@ -77,24 +76,17 @@
   margin-bottom: 25px;
 
   &::placeholder {
-    color: var(--light-gray-color);
+    color: $light-gray-color;
   }
   &:focus {
-    border-color: var(--blue-color);
+    border-color: $blue-color;
   }
-}
-.form__checkbox-wrapper {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  /* flex-direction: column; */
-  align-items: baseline;
 }
 .form__declaration {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--gray-color);
+  color: $gray-color;
 
   &::before {
     display: inline-block;
@@ -114,14 +106,20 @@
   vertical-align: middle;
   position: relative;
   bottom: 1px;
-  border-color: var(--main-color);
+  border-color: $main-color;
   margin-right: 8px;
 
   &:checked + .form__declaration::before {
-    background-color: var(--blue-color);
-    border-color: var(--blue-color);
+    background-color: $blue-color;
+    border-color: $blue-color;
     background-image: url(../images/checked.svg);
     background-repeat: no-repeat;
     background-position: center;
   }
+}
+.form__checkbox-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }

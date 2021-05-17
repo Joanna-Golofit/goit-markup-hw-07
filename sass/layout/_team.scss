@@ -16,11 +16,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
-    color: var(--gray-color);
+    color: $gray-color;
   }
 }
 .team__item {
-  background-color: var(--white-color);
+  background-color:$-white-color;
   width: 270px;
   display: flex;
   flex-direction: column;
