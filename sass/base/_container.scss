@@ -30,4 +30,9 @@
     align-items: baseline;
     justify-content: space-between;
   }
+  .portfolio & {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
 }
