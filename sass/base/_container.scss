@@ -8,13 +8,10 @@
   .why-us & {
     display: flex;
   }
-  .our-team & {
+  .our-team &,
+  .our-offer & {
     display: flex;
     flex-direction: column;
-  }
-  .our-offer & {
-  display: flex;
-  flex-direction: column;
   }
   .header & {
   display: flex;
@@ -32,5 +29,5 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-}
+  }
 }
